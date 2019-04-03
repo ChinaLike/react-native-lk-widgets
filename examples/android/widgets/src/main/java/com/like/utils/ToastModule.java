@@ -104,7 +104,7 @@ public class ToastModule extends ReactContextBaseJavaModule {
      * @param location 显示位置
      */
     @ReactMethod
-    public void show(String message, int location) {
+    public void showAndLocation(String message, int location) {
         initToast(message,location);
     }
 
@@ -141,7 +141,7 @@ public class ToastModule extends ReactContextBaseJavaModule {
      * @param duration
      */
     @ReactMethod
-    public void showCenter(String message, int duration) {
+    public void showCenterAndTime(String message, int duration) {
         initToast(message, duration, Gravity.CENTER);
     }
 
@@ -162,7 +162,7 @@ public class ToastModule extends ReactContextBaseJavaModule {
      * @param duration
      */
     @ReactMethod
-    public void showTop(String message, int duration) {
+    public void showTopAndTime(String message, int duration) {
         initToast(message, duration, Gravity.TOP | Gravity.CENTER_HORIZONTAL);
     }
 
@@ -183,7 +183,7 @@ public class ToastModule extends ReactContextBaseJavaModule {
      * @param duration
      */
     @ReactMethod
-    public void showBottom(String message, int duration) {
+    public void showBottomAndTime(String message, int duration) {
         initToast(message, duration, Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL);
     }
 
