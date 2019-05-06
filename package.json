@@ -1,23 +1,17 @@
 {
   "name": "react-native-lk-widgets",
   "version": "0.0.1",
-  "description": "react-native 常用的组件",
+  "description": "RN 小部件集合",
   "main": "index.js",
   "scripts": {
-    "test": "echo \\\"Error: no test specified\\\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ChinaLike/react-native-lk-widgets.git"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "react-native",
-    "widgets"
+    "react-native"
   ],
-  "author": "Like",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ChinaLike/react-native-lk-widgets/issues"
-  },
-  "homepage": "https://github.com/ChinaLike/react-native-lk-widgets#readme"
+  "author": "",
+  "license": "",
+  "peerDependencies": {
+    "react-native": "^0.41.2"
+  }
 }
