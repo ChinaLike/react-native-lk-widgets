@@ -1,6 +1,10 @@
+// import { NativeModules } from 'react-native'
+import Touchable from './lib/Touchable'
+import Button from './lib/Button'
 
-import { NativeModules } from 'react-native';
+// const { RNWidgets } = NativeModules
 
-const { RNWidgets } = NativeModules;
-
-export default RNWidgets;
+module.exports = {
+  Touchable,
+  Button
+}
