@@ -61,6 +61,22 @@ class Home extends Component {
           >
             单选和多选
           </Text>
+          <Text
+            style={styles.textStyle}
+            onPress={() => {
+              this._onPress('TextInputScreen')
+            }}
+          >
+            输入组件
+          </Text>
+          <Text
+            style={styles.textStyle}
+            onPress={() => {
+              this._onPress('SearchScreen')
+            }}
+          >
+            搜索组件
+          </Text>
         </View>
       </ScrollView>
     )
