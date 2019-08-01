@@ -5,6 +5,7 @@ import Image from './lib/Image'
 import Radio from './lib/Radio'
 import TextInput from './lib/TextInput'
 import Search from './lib/Search'
+import EmptyView from './lib/EmptyView'
 
 module.exports = {
   Touchable,
@@ -13,5 +14,6 @@ module.exports = {
   Image,
   Radio,
   TextInput,
-  Search
+  Search,
+  EmptyView
 }

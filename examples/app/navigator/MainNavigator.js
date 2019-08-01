@@ -11,6 +11,7 @@ import ImageScreen from '../containers/Home/ImageScreen'
 import RadioScreen from '../containers/Home/RadioScreen'
 import TextInputScreen from '../containers/Home/TextInputScreen'
 import SearchScreen from '../containers/Home/SearchScreen'
+import EmptyViewScreen from '../containers/Home/EmptyViewScreen'
 
 /**
  * 创建与主Tab平级界面，包含导航栏
@@ -25,7 +26,8 @@ const MainNavigator = createStackNavigator(
     UtilsScreen: { screen: UtilsScreen },
     RadioScreen: { screen: RadioScreen },
     TextInputScreen: { screen: TextInputScreen },
-    SearchScreen: { screen: SearchScreen }
+    SearchScreen: { screen: SearchScreen },
+    EmptyViewScreen: { screen: EmptyViewScreen }
   },
   Config.mainNavigatorConfig(require('../res/images/tab/navigation_bg.png'))
 )

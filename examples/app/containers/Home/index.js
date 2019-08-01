@@ -77,6 +77,14 @@ class Home extends Component {
           >
             搜索组件
           </Text>
+          <Text
+            style={styles.textStyle}
+            onPress={() => {
+              this._onPress('EmptyViewScreen')
+            }}
+          >
+            提示视图组件
+          </Text>
         </View>
       </ScrollView>
     )
