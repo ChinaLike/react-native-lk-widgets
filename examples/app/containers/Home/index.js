@@ -59,7 +59,15 @@ class Home extends Component {
               this._onPress('RadioScreen')
             }}
           >
-            单选和多选
+            单选框组件
+          </Text>
+          <Text
+            style={styles.textStyle}
+            onPress={() => {
+              this._onPress('CheckboxScreen')
+            }}
+          >
+            复选框组件
           </Text>
           <Text
             style={styles.textStyle}
